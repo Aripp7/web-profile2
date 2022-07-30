@@ -10,12 +10,14 @@ import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 // import Tailwind from '../assets/tailwind.png';
 // import Mongo from '../assets/mongo.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Skills = () => {
     return (
         <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
             {/* Container */}
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full' data-aos="fade-up" data-aos-duration="1000">
                 <div>
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
                     {/* <p className='py-4'>// These are the technologies I've worked with</p> */}
@@ -59,5 +61,5 @@ const Skills = () => {
         </div>
     );
 };
-
+AOS.init();
 export default Skills;

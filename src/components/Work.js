@@ -1,11 +1,13 @@
 import React from 'react';
 import WorkImg from '../assets/workImg.jpeg';
 import realEstate from '../assets/realestate.jpg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Work = () => {
     return (
         <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full' data-aos="fade-up" data-aos-duration="1000">
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
                         Work
@@ -162,5 +164,5 @@ const Work = () => {
         </div>
     );
 };
-
+AOS.init();
 export default Work;
