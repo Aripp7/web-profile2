@@ -5,7 +5,7 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
-import Sql from '../assets/sqlserver1.png';
+import Sql from '../assets/sql.png';
 import Php from '../assets/php2.svg';
 // import FireBase from '../assets/firebase.png';
 // import AWS from '../assets/aws.png';
