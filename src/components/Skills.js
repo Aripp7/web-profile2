@@ -6,7 +6,7 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
 import Sql from '../assets/sql.png';
-import Php from '../assets/php2.svg';
+import Php from '../assets/php.png';
 // import FireBase from '../assets/firebase.png';
 // import AWS from '../assets/aws.png';
 import GitHub from '../assets/github.png';
