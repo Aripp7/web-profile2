@@ -1,6 +1,6 @@
 import React from 'react';
 import WorkImg from '../assets/workImg.jpeg';
-import realEstate from '../assets/web portfolio.jpg';
+import realEstate from '../assets/portfolio.jpg';
 import berdonasi from '../assets/berdonasi.jpg';
 import titipsini1 from '../assets/titipsini1.jpg';
 import AOS from 'aos';
