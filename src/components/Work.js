@@ -1,6 +1,8 @@
 import React from 'react';
 import WorkImg from '../assets/workImg.jpeg';
-import realEstate from '../assets/realestate.jpg';
+import realEstate from '../assets/web portfolio.jpg';
+import berdonasi from '../assets/berdonasi.jpg';
+import titipsini1 from '../assets/titipsini1.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -90,7 +92,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${realEstate})` }}
+                        style={{ backgroundImage: `url(${titipsini1})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
                         {/* Hover Effects */}
@@ -137,7 +139,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${realEstate})` }}
+                        style={{ backgroundImage: `url(${berdonasi})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
                         {/* Hover Effects */}
